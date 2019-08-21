@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+
+    <TextView
+        android:id = "@+id/myZenboName"
+        android:layout_width = "@dimen/textviewWidth"
+        android:layout_height = "wrap_content"
+        android:textSize = "@dimen/textview_tsize"
+        android:padding = "@dimen/textview_padding"
+        android:text = "@string/p1a"
+        android:gravity = "center" />
+
+    <TextView
+        android:id = "@+id/show_myZenboName"
+        android:layout_width = "match_parent"
+        android:layout_height = "wrap_content"
+        android:textSize = "@dimen/textview_tsize"
+        android:padding = "@dimen/textview_padding"
+        android:layout_toRightOf = "@id/myZenboName"/>
+
+    <TextView
+        android:id = "@+id/myZenboIp"
+        android:layout_width = "@dimen/textviewWidth"
+        android:layout_height = "wrap_content"
+        android:textSize = "@dimen/textview_tsize"
+        android:padding = "@dimen/textview_padding"
+        android:text = "@string/p1b"
+        android:gravity = "center"
+        android:layout_below = "@id/myZenboName"/>
+
+    <TextView
+        android:id = "@+id/show_myZenboIp"
+        android:layout_width = "match_parent"
+        android:layout_height = "wrap_content"
+        android:textSize = "@dimen/textview_tsize"
+        android:padding = "@dimen/textview_padding"
+        android:layout_below = "@id/show_myZenboName"
+        android:layout_toRightOf = "@id/myZenboIp"/>
+
+    <TextView
+        android:id = "@+id/myZenboPort"
+        android:layout_width = "@dimen/textviewWidth"
+        android:layout_height = "wrap_content"
+        android:textSize = "@dimen/textview_tsize"
+        android:padding = "@dimen/textview_padding"
+        android:text = "@string/p1c"
+        android:gravity = "center"
+        android:layout_below = "@id/myZenboIp"/>
+
+    <TextView
+        android:id = "@+id/show_myZenboPort"
+        android:layout_width = "match_parent"
+        android:layout_height = "wrap_content"
+        android:textSize = "@dimen/textview_tsize"
+        android:padding = "@dimen/textview_padding"
+        android:layout_below = "@id/show_myZenboIp"
+        android:layout_toRightOf = "@id/myZenboPort"/>
+
+    <TextView
+        android:id = "@+id/dialog"
+        android:layout_width = "match_parent"
+        android:layout_height = "match_parent"
+        android:textSize = "@dimen/dialog_tsize"
+        android:padding = "@dimen/dialog_padding"
+        android:layout_below = "@id/myZenboPort"/>
+
+</RelativeLayout>

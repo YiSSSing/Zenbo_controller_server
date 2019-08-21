@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <dimen name = "textviewWidth">140dp</dimen>
+    <dimen name = "textview_tsize">18sp</dimen>
+    <dimen name = "textview_padding">10dp</dimen>
+
+    <dimen name = "dialog_tsize">16sp</dimen>
+    <dimen name = "dialog_padding">16dp</dimen>
+
+</resources>

@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Zenbo_robotService</string>
+    <string name="blank"> </string>
+
+    <string name = "p1a">Zenbo Name :</string>
+    <string name = "p1b">Zenbo IP :</string>
+    <string name = "p1c">Zenbo Port :</string>
+
+</resources>
